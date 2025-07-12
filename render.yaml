@@ -5,7 +5,7 @@ services:
     plan: free
     buildCommand: |
       apt-get update && apt-get install -y ffmpeg
-      pip install -r requirements.txt
+      pip install -r deps.txt
     startCommand: gunicorn backend:app --bind 0.0.0.0:5000
     envVars:
       - key: PYTHONUNBUFFERED
