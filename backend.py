@@ -43,7 +43,7 @@ def download_audio():
             'preferredcodec': 'mp3',
             'preferredquality': '192',
         }],
-        'ffmpeg_location': r'D:/ffmen/ffmpeg-7.1.1-full_build/ffmpeg-7.1.1-full_build/bin',
+        'ffmpeg_location': 'ffmpeg',
         'quiet': False,
         'verbose': True,
     }
